@@ -22,7 +22,6 @@ function hideSection() {
     setTimeout(() => {
       targetImg.style.transform = "rotate(0deg)";
       targetImg.style.transition = "0.8s";
-
     }, 200);
 
     targetList.style.backgroundImage =
@@ -31,21 +30,17 @@ function hideSection() {
 
     // apaga os outros elementos da lista que não estão sendo acessados
 
-          // DEVERÁ SER DESCOMENTADO AO IMPLEMENTAR A SETORIZAÇÃO DE LISTA
-          
-    // for (i = 0; i < 5; i++) {
-    //   let element = document.querySelectorAll(".list-item")[i];
-    //   let text = element.children[0].innerText;
-    //   let textTarget = targetList.children[0].innerText;
+    for (i = 0; i < 5; i++) {
+      let element = document.querySelectorAll(".list-item")[i];
+      let text = element.children[0].innerText;
+      let textTarget = targetList.children[0].innerText;
 
-    //   if (text === textTarget) {
-    //     element.style.display = "flex";
-    //   } else if (text != textTarget) {
-    //     element.style.display = "none";
-    //   }
-    // }
-
-
+      if (text === textTarget) {
+        element.style.display = "flex";
+      } else if (text != textTarget) {
+        element.style.display = "none";
+      }
+    }
   } else {
     // faz desaparecer as sub-listas
 
