@@ -62,7 +62,6 @@ main {
 
 #apresentation h2 {
   font-weight: 400;
-  /* color: rgb(0, 90, 0); */
   color: white;
 }
 
@@ -71,7 +70,10 @@ main {
 #content-general {
   width: 100vw;
   max-height: 100%;
-  /* background-color: blue; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #list {
@@ -79,10 +81,9 @@ main {
   width: 100vw;
   height: 100%;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  /* background-color: red; */
+  /* background-color: blue; */
 }
 
 #list ul {

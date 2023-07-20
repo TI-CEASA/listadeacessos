@@ -1,204 +1,515 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GEROP</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
+  <body>
+    <div id="apresentation">
+      <img src="./assets/Logo_Ceasa-removebg-previewW.png" />
+      <h2>Lista de acessos</h2>
+    </div>
     <main id="content-general">
-        <div id="apresentation">
-            <img src="./assets/Logo_Ceasa-removebg-previewW.png">
-            <h2>Lista de acessos</h2>
-        </div>
-        <ul id="list">
-            <a class="list-item" href="#">
-                <li>LISTA GERAL </li>
-                <img src="./assets/dropdown.png" onclick="hideSection()">
-            </a>
-            <ul class="listHidden">
-                <li><a href="https://docs.google.com/spreadsheets/d/1tsH7imilhq4TfHKJrIs7prTmYbQXLeXAuJ3ZylLNF0w/edit?usp=sharing"
-                        target="_blank">Auditoria de Carga</a></li>
-                <li><a href="https://forms.gle/PVcAA7dgC2fbe4Sw8" target="_blank">Autorizações de Acesso:
-                        Solicitações</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1q1qiv9xv5Semb4qD2kjnQC1YrdJytZ2Fd5_LrC6PSFM/edit?usp=sharing"
-                        target="_blank">Autorizações de Acesso: Relatório</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1TEnI2qVvf-WMfk7ZCVud__F8fANlQVkt?usp=drive_link"
-                        target="_blank">Box e Lojas: Arquivo</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Ga06fN7mnkIixa3fEbppJYBL0WCeZs-MF0eAxDrejfY/edit?usp=sharing"
-                        target="_blank">Central das FLores</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/128wGX-PaNr2fz5Pcm90CNQwF3_oaXMXt/edit?usp=drive_link"
-                        target="_blank">Check List - Turno 23:00 - 05:00 ID.OR01 ---- ID.OR02</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1EA0j4W0pzqj3R37rc0OFqtBg-SzE9LFx/edit?usp=drive_link"
-                        target="_blank">Check List - Turno 17:00 - 23:00 ID.OR15 ---- ID.OR16</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1m2T0iVrZ7ZEZtesefaW5e69lEKLC2fWT/edit?usp=drive_link"
-                        target="_blank">Check List - Turno 11:00 - 17:00 ID.OR13 ---- ID.OR14</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1YwUOzIOUGI7TJ76kHahwkrxDp3W7rxMY/edit?usp=drive_link"
-                        target="_blank">Check List - Turno 05:00 - 11:00 ID.OR04 ---- ID.OR05</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1nR-hMRDCIgw2HAhG6l97NP4nyFA8tO6EXIZx3e4r2-w/edit?usp=sharing"
-                        target="_blank">Controle de Acesso: Motos</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1ECj-Qp8cw_gm_kJTJwfGBDfRBUKTEEGYECItE38kYd4/edit?usp=sharing"
-                        target="_blank">Controle de Tickets P6</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Xwc5q9KkzIsv-GfQjcNS1wmuBbPMlT3Dqn3dgYqD7Ek/edit?usp=sharing"
-                        target="_blank">Escala de Trabalho</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1a7mascQZmJE7B3Sxdkvu-tjZT39IR3iK1KdjY-72FXc/edit?usp=sharing"
-                        target="_blank">Listagem de Municípios</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1nhQVaMyXB0FWm0o3-dcNrJ63KcWuAeD_3EIloPOgDqk/edit?usp=sharing"
-                        target="_blank">Listagem de Produtos</a></li>
-                <li><a href="https://drive.google.com/file/d/14SNFDFwoJOWtllSU3WQSZ8YAPXQ5Y4BM/view?usp=drive_link"
-                        target="_blank">Manual de Procedimentos</a></li>
-                <li><a href="https://drive.google.com/file/d/1J5K6sZih3N97aumy11VmgG9Xy-jecSEX/view?usp=drive_link"
-                        target="_blank">Organograma</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1V9qwPyj9AbJegThPx6o8k45l-sA0E5mDSHXGC77Zqr4/edit#gid=0"
-                        target="_blank">Planilha de PTS</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1aBurH8Zei3EbkKKGwEuyuI2REH3__xlk?usp=drive_link"
-                        target="_blank">RDP: Arquivo</a></li>
-                <li><a href="https://drive.google.com/file/d/1xHm_2UuHCUhVpNQ2J1Rhgum--AQpM6RF/view?usp=drive_link"
-                        target="_blank">Regulamento de Mercado</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Cur9ko8Rc5mjt9AWVItIFRO8BsPh9OL34O3K5u0p6lk/edit#gid=1962416504"
-                        target="_blank">Relatório Diário Pórticos</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1A8cyvLPN_MGx68yPgNMaaLYQcTmZEz9vkfs7TGElDHo/edit?usp=drivesdk"
-                        target="_blank">Romaneios Pórtico</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Kk2lsT3zsAfl9zEIO3hd14kJgq0z9FuEA3pD69iR544/edit?usp=drivesdk"
-                        target="_blank">RTC: Box e Lojas</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1B2Jx0EBa8E4aYOLp1bNZ7ojJQCvzYke17S7r0LwCNtk/edit?usp=sharing"
-                        target="_blank">Senhas e Tickets GNP</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1gpQzggk6SR76av1OxZFwYsea8T5H1yDo?usp=drive_link"
-                        target="_blank">Setorização</a></li>
-                <li><a href="https://forms.gle/WNVV8zmGVkkzrGVJ9" target="_blank">Veículos Estacionados Irregular:
-                        Formulário</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1GDIZT5CFz0QiIz74wj0ADuKNyX5CWQ16h49dEJWdDoU/edit?usp=sharing"
-                        target="_blank">Veículos Estacionados Irregular: Planilha</a></li>
-            </ul>
-
-
-            <a class="list-item" href="#">
-                <li>GNP</li>
-                <img src="./assets/dropdown.png" onclick="hideSection()">
-            </a>
-            <ul class="listHidden">
-                <li style="color: red">Em desenvolvimento</li>
-                <li style="color: red">Em desenvolvimento</li>
-                <li style="color: red">Em desenvolvimento</li>
-                <li style="color: red">Em desenvolvimento</li>
-                <li style="color: red">Em desenvolvimento</li>
-
-
-            </ul>
-            <a class="list-item" href="#">
-                <li>PÓRTICOS</li>
-                <img src="./assets/dropdown.png" onclick="hideSection()">
-            </a>
-            <ul class="listHidden">
-                <li><a href="https://docs.google.com/spreadsheets/d/1tsH7imilhq4TfHKJrIs7prTmYbQXLeXAuJ3ZylLNF0w/edit?usp=sharing"
-                        target="_blank">Auditoria de Carga</a></li>
-                <li><a href="https://forms.gle/PVcAA7dgC2fbe4Sw8" target="_blank">Autorizações de Acesso:
-                        Solicitações</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1q1qiv9xv5Semb4qD2kjnQC1YrdJytZ2Fd5_LrC6PSFM/edit?usp=sharing"
-                        target="_blank">Autorizações de Acesso: Relatório</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1TEnI2qVvf-WMfk7ZCVud__F8fANlQVkt?usp=drive_link"
-                        target="_blank">Box e Lojas: Arquivo</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Ga06fN7mnkIixa3fEbppJYBL0WCeZs-MF0eAxDrejfY/edit?usp=sharing"
-                        target="_blank">Central das Flores</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/128wGX-PaNr2fz5Pcm90CNQwF3_oaXMXt/edit?usp=drive_link"
-                        target="_blank">Check List - Turno 23:00 - 05:00 ID.OR01 ---- ID.OR02</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1EA0j4W0pzqj3R37rc0OFqtBg-SzE9LFx/edit?usp=drive_link"
-                        target="_blank">Check List - Turno 17:00 - 23:00 ID.OR15 ---- ID.OR16</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1m2T0iVrZ7ZEZtesefaW5e69lEKLC2fWT/edit?usp=drive_link"
-                        target="_blank">Check List - Turno 11:00 - 17:00 ID.OR13 ---- ID.OR14</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1YwUOzIOUGI7TJ76kHahwkrxDp3W7rxMY/edit?usp=drive_link"
-                        target="_blank">Check List - Turno 05:00 - 11:00 ID.OR04 ---- ID.OR05</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1nR-hMRDCIgw2HAhG6l97NP4nyFA8tO6EXIZx3e4r2-w/edit?usp=sharing"
-                        target="_blank">Controle de Acesso: Motos</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1ECj-Qp8cw_gm_kJTJwfGBDfRBUKTEEGYECItE38kYd4/edit?usp=sharing"
-                        target="_blank">Controle de Tickets P6</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Xwc5q9KkzIsv-GfQjcNS1wmuBbPMlT3Dqn3dgYqD7Ek/edit?usp=sharing"
-                        target="_blank">Escala de Trabalho</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1a7mascQZmJE7B3Sxdkvu-tjZT39IR3iK1KdjY-72FXc/edit?usp=sharing"
-                        target="_blank">Listagem de Municípios</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1nhQVaMyXB0FWm0o3-dcNrJ63KcWuAeD_3EIloPOgDqk/edit?usp=sharing"
-                        target="_blank">Listagem de Produtos</a></li>
-                <li><a href="https://drive.google.com/file/d/14SNFDFwoJOWtllSU3WQSZ8YAPXQ5Y4BM/view?usp=drive_link"
-                        target="_blank">Manual de Procedimentos</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1V9qwPyj9AbJegThPx6o8k45l-sA0E5mDSHXGC77Zqr4/edit#gid=0"
-                        target="_blank">Planilha de PTS</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1aBurH8Zei3EbkKKGwEuyuI2REH3__xlk?usp=drive_link"
-                        target="_blank">RDP: Arquivo</a></li>
-                <li><a href="https://drive.google.com/file/d/1xHm_2UuHCUhVpNQ2J1Rhgum--AQpM6RF/view?usp=drive_link"
-                        target="_blank">Regulamento de Mercado</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Cur9ko8Rc5mjt9AWVItIFRO8BsPh9OL34O3K5u0p6lk/edit#gid=1962416504"
-                        target="_blank">Relatório Diário Pórticos</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1A8cyvLPN_MGx68yPgNMaaLYQcTmZEz9vkfs7TGElDHo/edit?usp=drivesdk"
-                        target="_blank">Romaneios Pórtico</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Kk2lsT3zsAfl9zEIO3hd14kJgq0z9FuEA3pD69iR544/edit?usp=drivesdk"
-                        target="_blank">RTC: Box e Lojas</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1B2Jx0EBa8E4aYOLp1bNZ7ojJQCvzYke17S7r0LwCNtk/edit?usp=sharing"
-                        target="_blank">Senhas e Tickets GNP</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1gpQzggk6SR76av1OxZFwYsea8T5H1yDo?usp=drive_link"
-                        target="_blank">Setorização</a></li>
-                <li><a href="https://forms.gle/WNVV8zmGVkkzrGVJ9" target="_blank">Veículos Estacionados Irregular:
-                        Formulário</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1GDIZT5CFz0QiIz74wj0ADuKNyX5CWQ16h49dEJWdDoU/edit?usp=sharing"
-                        target="_blank">Veículos Estacionados Irregular: Planilha</a></li>
-            </ul>
-            <a class="list-item" href="#">
-                <li>SETOR LESTE</li>
-                <img src="./assets/dropdown.png" onclick="hideSection()">
-            </a>
-            <ul class="listHidden">
-                <li><a href="https://drive.google.com/drive/folders/1TEnI2qVvf-WMfk7ZCVud__F8fANlQVkt?usp=drive_link"
-                        target="_blank">Box e Lojas: Arquivo</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1ECj-Qp8cw_gm_kJTJwfGBDfRBUKTEEGYECItE38kYd4/edit?usp=sharing"
-                        target="_blank">Controle de Tickets P6</a></li>
-                <li><a href="https://drive.google.com/file/d/14SNFDFwoJOWtllSU3WQSZ8YAPXQ5Y4BM/view?usp=drive_link"
-                        target="_blank">Manual de Procedimentos</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1V9qwPyj9AbJegThPx6o8k45l-sA0E5mDSHXGC77Zqr4/edit#gid=0"
-                        target="_blank">Planilha de PTS</a></li>
-                <li><a href="https://drive.google.com/file/d/1xHm_2UuHCUhVpNQ2J1Rhgum--AQpM6RF/view?usp=drive_link"
-                        target="_blank">Regulamento de Mercado</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Kk2lsT3zsAfl9zEIO3hd14kJgq0z9FuEA3pD69iR544/edit?usp=drivesdk"
-                        target="_blank">RTC: Box e Lojas</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1gpQzggk6SR76av1OxZFwYsea8T5H1yDo?usp=drive_link"
-                        target="_blank">Setorização</a></li>
-            </ul>
-            <a class="list-item" href="#">
-                <li>SETOR OESTE</li>
-                <img src="./assets/dropdown.png" onclick="hideSection()">
-            </a>
-            <ul class="listHidden">
-                <li><a href="https://drive.google.com/drive/folders/1TEnI2qVvf-WMfk7ZCVud__F8fANlQVkt?usp=drive_link"
-                        target="_blank">Box e Lojas: Arquivo</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1ECj-Qp8cw_gm_kJTJwfGBDfRBUKTEEGYECItE38kYd4/edit?usp=sharing"
-                        target="_blank">Controle de Tickets P6</a></li>
-                <li><a href="https://drive.google.com/file/d/14SNFDFwoJOWtllSU3WQSZ8YAPXQ5Y4BM/view?usp=drive_link"
-                        target="_blank">Manual de Procedimentos</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1V9qwPyj9AbJegThPx6o8k45l-sA0E5mDSHXGC77Zqr4/edit#gid=0"
-                        target="_blank">Planilha de PTS</a></li>
-                <li><a href="https://drive.google.com/file/d/1xHm_2UuHCUhVpNQ2J1Rhgum--AQpM6RF/view?usp=drive_link"
-                        target="_blank">Regulamento de Mercado</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/1Kk2lsT3zsAfl9zEIO3hd14kJgq0z9FuEA3pD69iR544/edit?usp=drivesdk"
-                        target="_blank">RTC: Box e Lojas</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1gpQzggk6SR76av1OxZFwYsea8T5H1yDo?usp=drive_link"
-                        target="_blank">Setorização</a></li>
-            </ul>
-
-
+      <ul id="list">
+        <a class="list-item" href="#">
+          <li>LISTA GERAL</li>
+          <img src="./assets/dropdown.png" onclick="hideSection()" />
+        </a>
+        <ul class="listHidden">
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1tsH7imilhq4TfHKJrIs7prTmYbQXLeXAuJ3ZylLNF0w/edit?usp=sharing"
+              target="_blank"
+              >Auditoria de Carga</a
+            >
+          </li>
+          <li>
+            <a href="https://forms.gle/PVcAA7dgC2fbe4Sw8" target="_blank"
+              >Autorizações de Acesso: Solicitações</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1q1qiv9xv5Semb4qD2kjnQC1YrdJytZ2Fd5_LrC6PSFM/edit?usp=sharing"
+              target="_blank"
+              >Autorizações de Acesso: Relatório</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1TEnI2qVvf-WMfk7ZCVud__F8fANlQVkt?usp=drive_link"
+              target="_blank"
+              >Box e Lojas: Arquivo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1Ga06fN7mnkIixa3fEbppJYBL0WCeZs-MF0eAxDrejfY/edit?usp=sharing"
+              target="_blank"
+              >Central das FLores</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/128wGX-PaNr2fz5Pcm90CNQwF3_oaXMXt/edit?usp=drive_link"
+              target="_blank"
+              >Check List - Turno 23:00 - 05:00 ID.OR01 ---- ID.OR02</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1EA0j4W0pzqj3R37rc0OFqtBg-SzE9LFx/edit?usp=drive_link"
+              target="_blank"
+              >Check List - Turno 17:00 - 23:00 ID.OR15 ---- ID.OR16</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1m2T0iVrZ7ZEZtesefaW5e69lEKLC2fWT/edit?usp=drive_link"
+              target="_blank"
+              >Check List - Turno 11:00 - 17:00 ID.OR13 ---- ID.OR14</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1YwUOzIOUGI7TJ76kHahwkrxDp3W7rxMY/edit?usp=drive_link"
+              target="_blank"
+              >Check List - Turno 05:00 - 11:00 ID.OR04 ---- ID.OR05</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1nR-hMRDCIgw2HAhG6l97NP4nyFA8tO6EXIZx3e4r2-w/edit?usp=sharing"
+              target="_blank"
+              >Controle de Acesso: Motos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1ECj-Qp8cw_gm_kJTJwfGBDfRBUKTEEGYECItE38kYd4/edit?usp=sharing"
+              target="_blank"
+              >Controle de Tickets P6</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1Xwc5q9KkzIsv-GfQjcNS1wmuBbPMlT3Dqn3dgYqD7Ek/edit?usp=sharing"
+              target="_blank"
+              >Escala de Trabalho</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1a7mascQZmJE7B3Sxdkvu-tjZT39IR3iK1KdjY-72FXc/edit?usp=sharing"
+              target="_blank"
+              >Listagem de Municípios</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1nhQVaMyXB0FWm0o3-dcNrJ63KcWuAeD_3EIloPOgDqk/edit?usp=sharing"
+              target="_blank"
+              >Listagem de Produtos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/14SNFDFwoJOWtllSU3WQSZ8YAPXQ5Y4BM/view?usp=drive_link"
+              target="_blank"
+              >Manual de Procedimentos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1J5K6sZih3N97aumy11VmgG9Xy-jecSEX/view?usp=drive_link"
+              target="_blank"
+              >Organograma</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1V9qwPyj9AbJegThPx6o8k45l-sA0E5mDSHXGC77Zqr4/edit#gid=0"
+              target="_blank"
+              >Planilha de PTS</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1aBurH8Zei3EbkKKGwEuyuI2REH3__xlk?usp=drive_link"
+              target="_blank"
+              >RDP: Arquivo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1xHm_2UuHCUhVpNQ2J1Rhgum--AQpM6RF/view?usp=drive_link"
+              target="_blank"
+              >Regulamento de Mercado</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1Cur9ko8Rc5mjt9AWVItIFRO8BsPh9OL34O3K5u0p6lk/edit#gid=1962416504"
+              target="_blank"
+              >Relatório Diário Pórticos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1V8tOQ6JTKezuvEjmpfcf2mmzwm2tplF1qFxuvd8Jlew/edit?usp=sharing"
+              target="_blank"
+              >Romaneios Pórtico</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1ym0lTQPTO8AZeIRbXjqFSKd-amBdIuSrF9DgeeGtsX4/edit?usp=sharing"
+              target="_blank"
+              >RTC: Box e Lojas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1B2Jx0EBa8E4aYOLp1bNZ7ojJQCvzYke17S7r0LwCNtk/edit?usp=sharing"
+              target="_blank"
+              >Senhas e Tickets GNP</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1gpQzggk6SR76av1OxZFwYsea8T5H1yDo?usp=drive_link"
+              target="_blank"
+              >Setorização</a
+            >
+          </li>
+          <li>
+            <a href="https://forms.gle/WNVV8zmGVkkzrGVJ9" target="_blank"
+              >Veículos Estacionados Irregular: Formulário</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1GDIZT5CFz0QiIz74wj0ADuKNyX5CWQ16h49dEJWdDoU/edit?usp=sharing"
+              target="_blank"
+              >Veículos Estacionados Irregular: Planilha</a
+            >
+          </li>
         </ul>
+
+        <a class="list-item" href="#">
+          <li>GNP</li>
+          <img src="./assets/dropdown.png" onclick="hideSection()" />
+        </a>
+        <ul class="listHidden">
+          <li style="color: red">Em desenvolvimento</li>
+          <li style="color: red">Em desenvolvimento</li>
+          <li style="color: red">Em desenvolvimento</li>
+          <li style="color: red">Em desenvolvimento</li>
+          <li style="color: red">Em desenvolvimento</li>
+        </ul>
+        <a class="list-item" href="#">
+          <li>PÓRTICOS</li>
+          <img src="./assets/dropdown.png" onclick="hideSection()" />
+        </a>
+        <ul class="listHidden">
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1tsH7imilhq4TfHKJrIs7prTmYbQXLeXAuJ3ZylLNF0w/edit?usp=sharing"
+              target="_blank"
+              >Auditoria de Carga</a
+            >
+          </li>
+          <li>
+            <a href="https://forms.gle/PVcAA7dgC2fbe4Sw8" target="_blank"
+              >Autorizações de Acesso: Solicitações</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1q1qiv9xv5Semb4qD2kjnQC1YrdJytZ2Fd5_LrC6PSFM/edit?usp=sharing"
+              target="_blank"
+              >Autorizações de Acesso: Relatório</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1TEnI2qVvf-WMfk7ZCVud__F8fANlQVkt?usp=drive_link"
+              target="_blank"
+              >Box e Lojas: Arquivo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1Ga06fN7mnkIixa3fEbppJYBL0WCeZs-MF0eAxDrejfY/edit?usp=sharing"
+              target="_blank"
+              >Central das Flores</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/128wGX-PaNr2fz5Pcm90CNQwF3_oaXMXt/edit?usp=drive_link"
+              target="_blank"
+              >Check List - Turno 23:00 - 05:00 ID.OR01 ---- ID.OR02</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1EA0j4W0pzqj3R37rc0OFqtBg-SzE9LFx/edit?usp=drive_link"
+              target="_blank"
+              >Check List - Turno 17:00 - 23:00 ID.OR15 ---- ID.OR16</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1m2T0iVrZ7ZEZtesefaW5e69lEKLC2fWT/edit?usp=drive_link"
+              target="_blank"
+              >Check List - Turno 11:00 - 17:00 ID.OR13 ---- ID.OR14</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1YwUOzIOUGI7TJ76kHahwkrxDp3W7rxMY/edit?usp=drive_link"
+              target="_blank"
+              >Check List - Turno 05:00 - 11:00 ID.OR04 ---- ID.OR05</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1nR-hMRDCIgw2HAhG6l97NP4nyFA8tO6EXIZx3e4r2-w/edit?usp=sharing"
+              target="_blank"
+              >Controle de Acesso: Motos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1ECj-Qp8cw_gm_kJTJwfGBDfRBUKTEEGYECItE38kYd4/edit?usp=sharing"
+              target="_blank"
+              >Controle de Tickets P6</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1Xwc5q9KkzIsv-GfQjcNS1wmuBbPMlT3Dqn3dgYqD7Ek/edit?usp=sharing"
+              target="_blank"
+              >Escala de Trabalho</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1a7mascQZmJE7B3Sxdkvu-tjZT39IR3iK1KdjY-72FXc/edit?usp=sharing"
+              target="_blank"
+              >Listagem de Municípios</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1nhQVaMyXB0FWm0o3-dcNrJ63KcWuAeD_3EIloPOgDqk/edit?usp=sharing"
+              target="_blank"
+              >Listagem de Produtos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/14SNFDFwoJOWtllSU3WQSZ8YAPXQ5Y4BM/view?usp=drive_link"
+              target="_blank"
+              >Manual de Procedimentos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1V9qwPyj9AbJegThPx6o8k45l-sA0E5mDSHXGC77Zqr4/edit#gid=0"
+              target="_blank"
+              >Planilha de PTS</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1aBurH8Zei3EbkKKGwEuyuI2REH3__xlk?usp=drive_link"
+              target="_blank"
+              >RDP: Arquivo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1xHm_2UuHCUhVpNQ2J1Rhgum--AQpM6RF/view?usp=drive_link"
+              target="_blank"
+              >Regulamento de Mercado</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1Cur9ko8Rc5mjt9AWVItIFRO8BsPh9OL34O3K5u0p6lk/edit#gid=1962416504"
+              target="_blank"
+              >Relatório Diário Pórticos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1V8tOQ6JTKezuvEjmpfcf2mmzwm2tplF1qFxuvd8Jlew/edit?usp=sharing"
+              target="_blank"
+              >Romaneios Pórtico</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1ym0lTQPTO8AZeIRbXjqFSKd-amBdIuSrF9DgeeGtsX4/edit?usp=sharing"
+              target="_blank"
+              >RTC: Box e Lojas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1B2Jx0EBa8E4aYOLp1bNZ7ojJQCvzYke17S7r0LwCNtk/edit?usp=sharing"
+              target="_blank"
+              >Senhas e Tickets GNP</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1gpQzggk6SR76av1OxZFwYsea8T5H1yDo?usp=drive_link"
+              target="_blank"
+              >Setorização</a
+            >
+          </li>
+          <li>
+            <a href="https://forms.gle/WNVV8zmGVkkzrGVJ9" target="_blank"
+              >Veículos Estacionados Irregular: Formulário</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1GDIZT5CFz0QiIz74wj0ADuKNyX5CWQ16h49dEJWdDoU/edit?usp=sharing"
+              target="_blank"
+              >Veículos Estacionados Irregular: Planilha</a
+            >
+          </li>
+        </ul>
+        <a class="list-item" href="#">
+          <li>SETOR LESTE</li>
+          <img src="./assets/dropdown.png" onclick="hideSection()" />
+        </a>
+        <ul class="listHidden">
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1TEnI2qVvf-WMfk7ZCVud__F8fANlQVkt?usp=drive_link"
+              target="_blank"
+              >Box e Lojas: Arquivo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1ECj-Qp8cw_gm_kJTJwfGBDfRBUKTEEGYECItE38kYd4/edit?usp=sharing"
+              target="_blank"
+              >Controle de Tickets P6</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/14SNFDFwoJOWtllSU3WQSZ8YAPXQ5Y4BM/view?usp=drive_link"
+              target="_blank"
+              >Manual de Procedimentos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1V9qwPyj9AbJegThPx6o8k45l-sA0E5mDSHXGC77Zqr4/edit#gid=0"
+              target="_blank"
+              >Planilha de PTS</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1xHm_2UuHCUhVpNQ2J1Rhgum--AQpM6RF/view?usp=drive_link"
+              target="_blank"
+              >Regulamento de Mercado</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1ym0lTQPTO8AZeIRbXjqFSKd-amBdIuSrF9DgeeGtsX4/edit?usp=sharing"
+              target="_blank"
+              >RTC: Box e Lojas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1gpQzggk6SR76av1OxZFwYsea8T5H1yDo?usp=drive_link"
+              target="_blank"
+              >Setorização</a
+            >
+          </li>
+        </ul>
+        <a class="list-item" href="#">
+          <li>SETOR OESTE</li>
+          <img src="./assets/dropdown.png" onclick="hideSection()" />
+        </a>
+        <ul class="listHidden">
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1TEnI2qVvf-WMfk7ZCVud__F8fANlQVkt?usp=drive_link"
+              target="_blank"
+              >Box e Lojas: Arquivo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1ECj-Qp8cw_gm_kJTJwfGBDfRBUKTEEGYECItE38kYd4/edit?usp=sharing"
+              target="_blank"
+              >Controle de Tickets P6</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/14SNFDFwoJOWtllSU3WQSZ8YAPXQ5Y4BM/view?usp=drive_link"
+              target="_blank"
+              >Manual de Procedimentos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1V9qwPyj9AbJegThPx6o8k45l-sA0E5mDSHXGC77Zqr4/edit#gid=0"
+              target="_blank"
+              >Planilha de PTS</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1xHm_2UuHCUhVpNQ2J1Rhgum--AQpM6RF/view?usp=drive_link"
+              target="_blank"
+              >Regulamento de Mercado</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1ym0lTQPTO8AZeIRbXjqFSKd-amBdIuSrF9DgeeGtsX4/edit?usp=sharing"
+              target="_blank"
+              >RTC: Box e Lojas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/drive/folders/1gpQzggk6SR76av1OxZFwYsea8T5H1yDo?usp=drive_link"
+              target="_blank"
+              >Setorização</a
+            >
+          </li>
+        </ul>
+      </ul>
     </main>
 
     <footer>
-        <h4>Telefones úteis</h4>
-        <ul>
-            <li>Sup.Operacional: <a href="tel:+5551984780001"> (51) 8478-0001</a></li>
-            <li>Recepção: <a href="tel:+5551984790004"> (51) 98479-0004</a></li>
-
-        </ul>
+      <h4>Telefones úteis</h4>
+      <ul>
+        <li>
+          Sup.Operacional: <a href="tel:+5551984780001"> (51) 8478-0001</a>
+        </li>
+        <li>Recepção: <a href="tel:+5551984790004"> (51) 98479-0004</a></li>
+      </ul>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
